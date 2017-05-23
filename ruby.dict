@@ -29,13 +29,20 @@ and
 or
 not
 class
+initialize
+new
 def
 alias
 undef
 module
 defined?
 super
+ancestors
 yield
+
+include
+extend
+prepend
 
 even?
 odd?
@@ -47,12 +54,15 @@ each_with_index { |item, index| block }
 push
 
 ENV[USER]
+ARGV[0]
+$0
 
 gets
 strip
 to_i
 split
 
+inject
 map
 collect
 map!
@@ -64,3 +74,12 @@ take_while
 take
 drop_while
 drop
+
+p
+puts
+print
+printf
+
+unindent
+downcase
+upcase
